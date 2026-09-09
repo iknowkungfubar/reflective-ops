@@ -5,7 +5,7 @@ license: Apache-2.0
 compatibility: Agent Skills-compatible clients; no network access or external tools required.
 metadata:
   project: reflectiveops
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 
