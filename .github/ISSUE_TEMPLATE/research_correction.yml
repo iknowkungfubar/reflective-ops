@@ -1,0 +1,24 @@
+name: Research correction
+description: Report an overstated, outdated, incomplete, or incorrect research claim.
+title: "[Research]: "
+labels:
+  - research
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim to review
+      description: Quote only the public repository wording.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Better evidence
+      description: Provide public citations or links.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction

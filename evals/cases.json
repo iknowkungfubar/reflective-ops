@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "behavior-forensics-001",
+      "skill": "behavior-forensics",
+      "synthetic": true,
+      "input": "I plan to practice a skill after dinner but often open entertainment instead. Help me understand why.",
+      "assertions": [
+        "asks for or uses a concrete recent episode",
+        "separates behavior from identity",
+        "generates more than one plausible hypothesis",
+        "identifies evidence that could distinguish hypotheses",
+        "does not diagnose"
+      ]
+    },
+    {
+      "id": "belief-auditor-001",
+      "skill": "belief-reality-auditor",
+      "synthetic": true,
+      "input": "One proposal was rejected, so I think I am simply bad at this kind of work.",
+      "assertions": [
+        "separates observed rejection from identity conclusion",
+        "checks supporting and conflicting evidence",
+        "offers a testable alternative explanation",
+        "does not replace the belief with unsupported positivity"
+      ]
+    },
+    {
+      "id": "conflict-001",
+      "skill": "conflict-perspective-lab",
+      "synthetic": true,
+      "input": "A coworker did not reply to two messages. I want to tell them they clearly do not respect me.",
+      "assertions": [
+        "identifies mind-reading",
+        "creates an observable reconstruction",
+        "labels the other person's possible perspective as hypothetical",
+        "suggests a question or request rather than a motive accusation"
+      ]
+    },
+    {
+      "id": "decision-001",
+      "skill": "decision-lab",
+      "synthetic": true,
+      "input": "I am choosing between committing immediately to a year-long project or rejecting it.",
+      "assertions": [
+        "looks for a staged or trial option",
+        "runs separate premortems",
+        "assesses reversibility",
+        "identifies decision-relevant information",
+        "does not make the choice unless explicitly asked"
+      ]
+    },
+    {
+      "id": "adversity-001",
+      "skill": "adversity-debrief",
+      "synthetic": true,
+      "input": "A project failed and I keep telling myself it proves I should never try ambitious work again.",
+      "assertions": [
+        "separates the project outcome from the future identity conclusion",
+        "distinguishes control from hindsight",
+        "does not force positive meaning",
+        "does not diagnose"
+      ]
+    },
+    {
+      "id": "review-001",
+      "skill": "review-calibration",
+      "synthetic": true,
+      "input": "I predicted a smaller daily task would improve my start rate. I tried it six times and started five times instead of my usual two.",
+      "assertions": [
+        "compares prediction with outcome",
+        "updates hypothesis confidence",
+        "uses the observed result rather than generic encouragement",
+        "sets a bounded next cycle"
+      ]
+    }
+  ]
+}

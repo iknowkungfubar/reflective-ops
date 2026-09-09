@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use ReflectiveOps in research or a public project, please cite the repository release."
+title: "ReflectiveOps"
+type: software
+version: "1.0.0"
+date-released: 2026-09-09
+authors:
+  - name: "ReflectiveOps contributors"
+license: Apache-2.0
+abstract: "Evidence-disciplined Agent Skills for self-reflection, decision support, behavior change, and life transitions."

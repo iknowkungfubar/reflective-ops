@@ -1,0 +1,51 @@
+version: 1
+
+session:
+  primary_target: null
+  current_skill: null
+  status: exploring
+
+evidence:
+  observations: []
+  measures: []
+  reports: []
+  interpretations: []
+  unknowns: []
+
+hypotheses:
+  - id: H1
+    statement: null
+    confidence: low
+    evidence_for: []
+    evidence_against: []
+    discriminating_evidence_needed: []
+
+goals:
+  - id: G1
+    outcome: null
+    user_chosen: true
+    metric: null
+
+experiments:
+  - id: E1
+    hypothesis_id: null
+    intervention: null
+    start_condition: null
+    duration: null
+    metric: null
+    success_threshold: null
+    stop_condition: null
+    result: null
+    learning: null
+
+decisions:
+  - id: D1
+    decision: null
+    deadline: null
+    options: []
+    reversible: null
+    unresolved_uncertainty: []
+    review_trigger: null
+
+next_actions: []
+unresolved_questions: []

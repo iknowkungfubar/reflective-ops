@@ -1,0 +1,31 @@
+name: Skill proposal
+description: Propose a distinct reusable ReflectiveOps skill.
+title: "[Skill]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem class
+      description: What recurring user problem requires a distinct procedure?
+    validations:
+      required: true
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Proposed procedure
+      description: Describe the reusable steps without personal examples.
+    validations:
+      required: true
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Why existing skills are insufficient
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or design basis
+      description: Include public sources if the proposal makes behavioral or psychological claims.

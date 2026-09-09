@@ -1,0 +1,10 @@
+[project]
+name = "reflectiveops-repo-tools"
+version = "1.0.0"
+description = "Repository validation tools for ReflectiveOps"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+
+[tool.reflectiveops]
+public_repo = true
+runtime_dependencies = 0
