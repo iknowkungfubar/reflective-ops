@@ -43,6 +43,7 @@ See [DISCLAIMER.md](DISCLAIMER.md) and [docs/SAFETY_MODEL.md](docs/SAFETY_MODEL.
 
 | Skill | Purpose |
 |---|---|
+| [`guided-self-improvement-journey`](skills/guided-self-improvement-journey/) | Guide a structured interview through selective routing, a personalized reversible path, and a final report. |
 | [`life-systems-orchestrator`](skills/life-systems-orchestrator/) | Route a problem to the smallest useful specialist skill. |
 | [`baseline-mapper`](skills/baseline-mapper/) | Build a compact current-state map and identify one high-leverage bottleneck. |
 | [`behavior-forensics`](skills/behavior-forensics/) | Analyze repeated behavior through triggers, actions, immediate payoffs, delayed costs, and exceptions. |
@@ -108,11 +109,13 @@ For an additional local check against private terms known only to you, see
 
 Use the complete repository with an Agent Skills-compatible client, or copy only the skill directories you want into the client's supported skills location.
 
-For broad requests such as “help me figure out where to start,” begin with:
+For a broad request such as “help me figure out where to start,” begin with:
 
 ```text
-life-systems-orchestrator
+guided-self-improvement-journey
 ```
+
+The guided journey interviews one question at a time, identifies the primary bottleneck, loads only the necessary specialist skill, and turns the resulting evidence into one to three reversible actions or experiments. It can produce the same final report as portable Markdown or, when the client supports file creation, as a polished HTML document using [templates/final-report.html](templates/final-report.html) and [templates/final-report.css](templates/final-report.css). Reports can contain sensitive personal material and should remain private by default.
 
 For a known problem, invoke the matching specialist skill directly.
 

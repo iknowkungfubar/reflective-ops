@@ -8,19 +8,27 @@ ReflectiveOps is intentionally lightweight.
 User concern
     |
     v
-life-systems-orchestrator
+guided-self-improvement-journey (optional broad-request workflow)
     |
-    +--> clarity ---------> baseline-mapper
-    +--> behavior --------> behavior-forensics
-    +--> belief ----------> belief-reality-auditor
-    +--> relationship ----> conflict-perspective-lab
-    +--> identity --------> identity-transition-cartographer
-    +--> decision --------> decision-lab
-    +--> adversity -------> adversity-debrief
-    +--> ambivalence -----> change-readiness-interviewer
-    +--> execution -------> behavior-change-engineer
-    +--> uncertainty -----> experiment-designer
-    +--> results ---------> review-calibration
+    +--> orientation / interview
+    |       |
+    |       v
+    |   life-systems-orchestrator
+    |       |
+    |       +--> clarity ---------> baseline-mapper
+    |       +--> behavior --------> behavior-forensics
+    |       +--> belief ----------> belief-reality-auditor
+    |       +--> relationship ----> conflict-perspective-lab
+    |       +--> identity --------> identity-transition-cartographer
+    |       +--> decision --------> decision-lab
+    |       +--> adversity -------> adversity-debrief
+    |       +--> ambivalence -----> change-readiness-interviewer
+    |       +--> execution -------> behavior-change-engineer
+    |       +--> uncertainty -----> experiment-designer
+    |       +--> results ---------> review-calibration
+    |       |
+    |       v
+    |   evidence model → user checkpoint → action/experiment → report
 ```
 
 ## Closed-loop operating model
@@ -51,11 +59,16 @@ Agents should not load every skill for every request.
 Recommended loading sequence:
 
 1. skill names and descriptions for discovery,
-2. one selected `SKILL.md`,
-3. optional shared reference material only if needed,
-4. a template only when producing that artifact.
+2. `guided-self-improvement-journey/SKILL.md` for a broad request,
+3. one selected specialist `SKILL.md`,
+4. optional shared reference material only if needed,
+5. a template only when producing that artifact.
 
 This keeps context smaller and reduces instruction interference.
+
+## Report presentation
+
+The guided journey treats `templates/FINAL_REPORT.md` as the portable report contract. When a client can create files, the same structured content can be presented with `templates/final-report.html` and `templates/final-report.css`. The HTML/CSS is a dependency-free presentation layer, not a runtime workflow engine; no client is assumed to support HTML generation. Reports may contain sensitive personal material and should remain private by default.
 
 ## State
 
